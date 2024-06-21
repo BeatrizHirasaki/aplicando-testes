@@ -15,6 +15,8 @@ Este documento descreve a implementação e os resultados dos testes de convers�
 
    - Resultados: Todos os 6 testes foram executados com sucesso em apenas 2 ms, demonstrando a eficiência do xUnit em processar testes rapidamente.
 
+![xUnit](./assets/Captura%20de%20tela%202024-06-21%20%20090723.png)
+
 
 **2. NUnit**
 
@@ -24,11 +26,17 @@ Este documento descreve a implementação e os resultados dos testes de convers�
 
    - Resultados: A execução dos 6 testes foi concluída com êxito em 7 ms, validando diversas entradas de temperatura com precisão.
 
+![NUnit](./assets/Captura%20de%20tela%202024-06-21%20091645.png)
+
+
 **3. MSTest**
 
    - Descrição: MSTest é integrado ao Visual Studio e é ideal para usuários deste IDE. Oferece um bom suporte para execução paralela, apesar de ser menos versátil para testes orientados a dados em comparação com seus pares.
 
    - Resultados: Todos os 6 testes foram realizados com sucesso em 11 ms, o que indica uma boa performance, apesar de uma execução ligeiramente mais lenta comparada aos outros frameworks.
+
+![MSTest](./assets/Captura%20de%20tela%202024-06-21%20092202.png)
+
 
 ## Conclusão
 
